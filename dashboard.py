@@ -23,7 +23,7 @@ st.sidebar.header('Indicators of Heart Disease Dashboard')
 
 
 # Data
-dat = pd.read_csv("C:/Users/Connor/Desktop/Intro to Informatics/Projects/Heart-Disease-Dashboard-Streamlit-/data/heart_2022_no_nans.csv")
+dat = pd.read_csv("https://github.com/connorbryson5/Heart-Disease-Dashboard-Streamlit-/blob/main/data/heart_2022_no_nans.csv?raw=true")
 
 dat.head()
 
