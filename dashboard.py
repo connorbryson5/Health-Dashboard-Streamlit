@@ -603,7 +603,7 @@ with b1:
 with b2:
     
     ## Bubble Map
-    states = dat1.value_counts(subset = ["State_ABR"], sort = False).reset_index().State_ABR
+    states = dat1.value_counts(subset = ["State_ABR"], sort = False).to_frame('Count').reset_index().State_ABR
     sizes = dat1.value_counts(subset = ["State_ABR"], sort = False)
     map1 = px.scatter_geo(dat1, locations= states, locationmode="USA-states", size = sizes , scope="usa")
     
