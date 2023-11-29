@@ -47,7 +47,7 @@ dat = get_data("C:/Users/cdbry/Desktop/Info501/Heart-Disease-Dashboard-Streamlit
 
 with st.sidebar:
     
-    st.sidebar.header('Indicators of Heart Disease (United States Health) Dashboard')
+    st.sidebar.header('Health Dashboard (United States)')
     
     st.sidebar.subheader('Created by Connor Bryson')
     
@@ -501,7 +501,7 @@ with st.sidebar:
     
     
     
-st.markdown('# Indicators of Heart Disease (United States Health) Dashboard')
+st.markdown('# Health Dashboard (United States)')
 
 
 
