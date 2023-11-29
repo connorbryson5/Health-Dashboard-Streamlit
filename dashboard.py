@@ -27,7 +27,7 @@ with open('style.css') as f:
 # Caching data
 @st.cache_data
 def get_data(filename):
-    dat = pd.read_csv(filename, index_col = False)
+    dat = pd.read_csv(filename)
     return dat
 
 
