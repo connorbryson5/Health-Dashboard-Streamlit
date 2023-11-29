@@ -603,7 +603,10 @@ with b1:
 with b2:
     
     ## Bubble Map
-    map1 = px.scatter_geo(dat1, locations= dat1.value_counts(subset = ["State_ABR"], sort = False).reset_index().State_ABR, locationmode="USA-states", size = dat1.value_counts(subset = ["State_ABR"], sort = False), scope="usa")
+    states = dat1.value_counts(subset = ["State_ABR"], sort = False).reset_index().State_ABR
+    sizes = dat1.value_counts(subset = ["State_ABR"], sort = False)
+    map1 = px.scatter_geo(dat1, locations= states, locationmode="USA-states", size = sizes , scope="usa")
+    
     st.plotly_chart(map1, use_container_width=True)
 
 
