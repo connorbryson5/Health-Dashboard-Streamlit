@@ -30,10 +30,8 @@ def get_data(filename):
     dat = pd.read_csv(filename, index_col = False)
     return dat
 
-# Data (Laptop)
-## dat = get_data("C:/Users/Connor/Desktop/Intro to Informatics/Projects/Heart-Disease-Dashboard-Streamlit-/data/heart_2022_no_nans.csv")
-# Data (Desktop )
-dat = get_data("C:/Users/cdbry/Desktop/Info501/Heart-Disease-Dashboard-Streamlit-/data/heart_2022_no_nans.csv")
+
+dat = get_data("https://github.com/connorbryson5/Health-Dashboard-Streamlit/blob/main/data/heart_2022_no_nans.csv?raw=True")
 
 
 
