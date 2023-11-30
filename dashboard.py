@@ -488,7 +488,8 @@ with st.sidebar:
                dat['PneumoVaxEver'].isin(pneumo_checkbox) &
                dat['TetanusLast10Tdap'].isin(tetanus_tdap_checkbox) &
                dat['HighRiskLastYear'].isin(high_risk_checkbox) & 
-               dat['CovidPos'].isin(covid_checkbox)
+               dat['CovidPos'].isin(covid_checkbox) &
+               dat['State_ABR']
                ]
             
 
