@@ -14,7 +14,7 @@ As I worked on the project, I realized that the data that I was using was not ve
 
 **Disclaimer:** My hope is that users will be able to reflect on each of the factors for their own
 health. However, this dashboard is not meant to replace seeing a doctor if someone is
-dealing with health problems. The inferences that can be made with this dashbaord should be used knowing that the results are just for this survey of people when the survey was taken.
+dealing with health problems. The inferences that can be made with this dashboard should be used knowing that the results are just for this survey of people when the survey was taken.
 
 Overall this project was really fun to work on, and I hope you enjoy messing around with it. Any specific question you can think of try to see if you can do it with the data.
 
