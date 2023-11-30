@@ -605,7 +605,7 @@ with b2:
     
     ## Bubble Map
     states = dat1.value_counts(subset = ["State_ABR"], sort = False).to_frame('Count').reset_index().State_ABR
-    sizes = dat1.value_counts(subset = ["State_ABR"], sort = False)
+    sizes = dat1.value_counts(subset = ["State_ABR"], sort = False).to_frame('Count').reset_index().Count
     map1 = px.scatter_geo(dat1, locations= states, locationmode="USA-states", size = sizes , scope="usa")
     
     st.plotly_chart(map1, use_container_width=True)
