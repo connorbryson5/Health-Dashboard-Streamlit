@@ -488,8 +488,7 @@ with st.sidebar:
                dat['PneumoVaxEver'].isin(pneumo_checkbox) &
                dat['TetanusLast10Tdap'].isin(tetanus_tdap_checkbox) &
                dat['HighRiskLastYear'].isin(high_risk_checkbox) & 
-               dat['CovidPos'].isin(covid_checkbox) &
-               dat['State_ABR']
+               dat['CovidPos'].isin(covid_checkbox) 
                ]
             
 
@@ -515,7 +514,7 @@ with a1:
     st.markdown('### Bar chart')
     
     
-    histogram_selection1 = st.selectbox('Select Data', {'State', 'Sex', 'GeneralHealth', 'PhysicalHealthDays',
+    histogram_selection1 = st.selectbox('Select Data', {'Sex', 'State', 'GeneralHealth', 'PhysicalHealthDays',
                'MentalHealthDays', 'LastCheckupTime', 'PhysicalActivities',
                'SleepHours', 'RemovedTeeth', 'HadHeartAttack', 'HadAngina',
                'HadStroke', 'HadAsthma', 'HadSkinCancer', 'HadCOPD',
